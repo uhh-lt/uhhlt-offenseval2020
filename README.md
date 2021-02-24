@@ -45,6 +45,7 @@ This section will guide you through the steps to use the datasets that were used
 * The path to the datasets is "datasets/OffensEval20"
 
 The util datasets.py has to imported and the required dataset can be loaded as follows:
+```
 import datasets as ds
 
 For Task A
@@ -54,6 +55,8 @@ s_train, s_test = dataset.getData()
 For Task B
 dataset = ds.OffensEvalData2020B(path = 'datasets/OffensEval20', n_max=-1)
 s_train, s_test = dataset.getData()
+
+```
 
 
 ## Using the Notebook
