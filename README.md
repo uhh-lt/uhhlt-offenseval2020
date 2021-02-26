@@ -61,4 +61,23 @@ s_train, s_test = dataset.getData()
 
 ## Using the Notebook
 
-The notebook oe20_classification.ipynb contains the implementation for subtask A: Offensive Language Detection
+The notebook oe20_classification.ipynb contains the implementation for subtask A: Offensive Language Detection. 
+(The steps are mapped in the notebook)
+
+Step 1: Ensure that all the requirements are satisfied by running the pip
+Step 2: Select the model by changing the index to the required one from the dictionary of model name:
+
+                    1: 'albert-base-v1',
+                    2: 'albert-large-v1',
+                    3: 'albert-xlarge-v1',
+                    4: 'albert-xxlarge-v1',    
+                    5: 'albert-base-v2', 
+                    6: 'albert-large-v2', 
+                    7: 'albert-xlarge-v2', 
+                    8: 'albert-xxlarge-v2'
+Step 3: Load the model and train them on the dataset loaded from the previous section. Refer our paper for training details. 
+Step 4: Save the pre-trained check points under the respective folders
+Step 5: Evaluate the pre-trained model on the test set
+Step 6: Load this pre-trained models and ensemble them
+Step 7: Using the majority vote option, the predictions are computed
+Step 8: The Precision, Recall and F1 scores for labels {NOT, OFF} and overall Macro F1 and Accuracy are determined. 
