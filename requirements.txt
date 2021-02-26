@@ -1,0 +1,7 @@
+tensorboardX
+scikit-learn
+pandas
+tqdm
+regex
+spacy
+flair
