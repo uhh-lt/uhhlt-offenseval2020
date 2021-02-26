@@ -1,0 +1,1 @@
+This folder is where the required pre-trained model configurations and checkpoints get dowloaded 
