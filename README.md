@@ -81,3 +81,5 @@ The notebook oe20_classification.ipynb contains the implementation for subtask A
 6. Load this pre-trained models and ensemble them
 7. Using the majority vote option, the predictions are computed
 8. The Precision, Recall and F1 scores for labels {NOT, OFF} and overall Macro F1 and Accuracy are determined. 
+
+Note: The experiments were re-run and the results are slightly different from the orginal results in the paper. We observed that the environment in which the models are trained influences the evaluation and prediction results. 
