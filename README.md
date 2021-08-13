@@ -1,4 +1,5 @@
-# uhhlt-offenseval2020
+#  UHH-LT at SemEval-2020 Task 12
+
 ## UHH-LT at SemEval-2020 Task 12: Fine-Tuning of Pre-Trained Transformer Networks for Offensive Language Detection
 
 The implemenation presented here is part of the SemEval-2020 Task 12 on Multilingual OffensiveLanguage Identification in Social Media (OffensEval-2020). The Language Technology team (UHH-LT) from Hamburg University was ranked 1st on the English subtask A. The team fine-tuned different transformer models on the OLID training data and then combined into an ensemble. 
