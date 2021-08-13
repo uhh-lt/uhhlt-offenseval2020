@@ -83,3 +83,19 @@ The notebook oe20_classification.ipynb contains the implementation for subtask A
 8. The Precision, Recall and F1 scores for labels {NOT, OFF} and overall Macro F1 and Accuracy are determined. 
 
 Note: The experiments were re-run and the results are slightly different from the orginal results in the paper. We observed that the environment in which the models are trained influences the evaluation and prediction results. 
+
+## Citation
+
+
+If you use these resources and models, please cite the following paper:
+
+```
+@InProceedings{Wiedemann2020,
+  author    = {Gregor Wiedemann and Seid Muhie Yimam and Chris Biemann },
+  title     = {UHH-LT at SemEval-2020 Task 12: Fine-Tuning of Pre-Trained Transformer Networks for Offensive Language Detection},
+  booktitle = {Proceedings of the 14th International Workshop on Semantic Evaluation},
+  year      = {2020},
+  address   = {Barcelona, Spain (Online)},
+  pages     = {1638–1644}
+}
+```
